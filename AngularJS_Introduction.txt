@@ -13,7 +13,7 @@ The idea turned out very well, and the project is now officially supported by Go
 Why
 ---
 
- how to use client-side data binding to build dynamic views of data that change immediately in response to user actions.
+how to use client-side data binding to build dynamic views of data that change immediately in response to user actions.
 
 Angular keeps your views in sync with your data without the need for DOM manipulation.
 
