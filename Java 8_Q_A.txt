@@ -2,7 +2,7 @@ How will you print count of empty strings in java 8?
 
 List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
 //get count of empty string
-int count = strings.stream().filter(string -> string.isEmpty()).count();
+int count = (int) strings.stream().filter(s -> s.isEmpty()).count();
 
 
 
